@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+děkan, katedry, vedoucí kateder, zaměstnanci, kontakt na zaměstnance, pozice zaměstnanců, tituly
+<Univerzita>
+<studenti>
+    <fakulta>
+        <dekan></dekan>
+        <katedra nazev="">
+            <vedouci><vedoucí>
+        </katedra>
+        <zamestnanci>
+            <zamestnanec>
+                <jmeno></jmeno>
+                <kontakt></kontakt>
+                <titul></titul>
+                <pozice></pozice>
+            </zamestnanec>
+        </zamestnanci>
+
+        <studenti>
+            <student>
+                <jmeno></jmeno>
+                <prijmeni></prijmeni>
+                <StCislo></StCislo>
+                <email></email>
+                <studijniRok></studijniRok>
+                <rozvrh>
+                    <predmety></predmety>
+                </rozvrh>
+                <splnenePredmety>
+                    <predmety></predmety>
+                </splnenePredmety>
+            </student>
+        </studenti>
+    </fakulta>
+
+    
+<Univerzita>

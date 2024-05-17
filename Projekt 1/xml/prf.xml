@@ -1,16 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE fakulta SYSTEM "fakulta.dtd">
 
-<Univerzita>
-    <Fakulty>
-        <Fakulta nazev="">
-            <studenti forma="">
-                <student>
-                    <name></name>
-                    <surname></surname>
-                    <StId></StId>
-                </student>
-            </studenti>
-        </Fakulta>
-    </Fakulty>
-</Univerzita>
+<fakulta děkan="Prof. Jan Novák">
+    <katedra zkratka_katedry="KMA" webové_stránky="https://www.ujep.cz/cs/">
+        <vedoucí> 
+            <jméno>PhDr. Magdalena Krátká, Ph. D.</jméno>
+            <telefon>475 28 - linka: 6685</telefon>
+            <email>magdalena.kratka@ujep.cz</email>
+        </vedoucí>
+
+        <zaměstnanci>
+            <zaměstnanec>
+                <jméno>Mgr. Lucie Loukotová</jméno>
+                <telefon>475 28 - linka: 6688</telefon>
+                <email>lucie.loukotova@ujep.cz</email>
+                <pozice>
+                    <odborný_asistent/>
+                </pozice>
+            </zaměstnanec>
+        </zaměstnanci>
+        
+        <předměty>
+            <předmět zkratka="MAT1" typ="kombinované">
+                <název>Matekatika1</název>
+                <popis>Základy vysoko školské matematiky</popis>
+            </předmět>
+
+        </předměty>
+    </katedra>
+</fakulta>

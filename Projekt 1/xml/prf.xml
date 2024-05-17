@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fakulta SYSTEM "fakulta.dtd">
+
+<Univerzita>
+    <Fakulty>
+        <Fakulta nazev="">
+            <studenti forma="">
+                <student>
+                    <name></name>
+                    <surname></surname>
+                    <StId></StId>
+                </student>
+            </studenti>
+        </Fakulta>
+    </Fakulty>
+</Univerzita>

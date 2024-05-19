@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Univerzita>
-    <Fakulta nazev="Přirodovědecká">
-        <Studenti forma="prezenční">
-          <student>
-            <name>Hamza</name>
-            <surname>Nussir</surname>
-            <StId>st98757</StId>
-          </student>
-        </Studenti>
-    </Fakulta>
+    <PrF>
+        <student>
+          <jmeno>Hamza</jmeno>
+          <prijmeni>Nussir</prijmeni>
+          <tel.cislo>775226998</tel.cislo>
+          <StId>st98757</StId>
+          <forma>prezencni</forma>
+        </student>
+    </PrF>
 </Univerzita>

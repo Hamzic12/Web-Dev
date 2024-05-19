@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Univerzita>
-  <Fakulty>
     <Fakulta nazev="Přirodovědecká">
         <Studenti forma="prezenční">
           <student>
@@ -11,5 +10,4 @@
           </student>
         </Studenti>
     </Fakulta>
-  </Fakulty>
 </Univerzita>

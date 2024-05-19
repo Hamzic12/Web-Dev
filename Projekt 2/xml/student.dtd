@@ -1,4 +1,5 @@
 <!ELEMENT Univerzita (Fakulta+)>
+<!ATTLIST Univerzita nazev CDATA #REQUIRED>
 
 <!ELEMENT Fakulta (studenti)>
 <!ATTLIST Fakulta nazev CDATA #REQUIRED>

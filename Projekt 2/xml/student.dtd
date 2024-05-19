@@ -1,11 +1,14 @@
-<!ELEMENT Univerzita (PrF)>
+<!ELEMENT Univerzita (fakulta)>
 
-<!ELEMENT PrF (student+)>
+<!ELEMENT fakulta (forma+)>
+<!ATTLIST fakulta nazev CDATA #REQUIRED>
 
-<!ELEMENT student (jmeno, prijmeni, tel.cislo, StId, forma)>
+<!ELEMENT forma (student*)>
+<!ATTLIST forma typ CDATA #REQUIRED>
+
+<!ELEMENT student (jmeno, prijmeni, tel.cislo, StId)>
 
 <!ELEMENT jmeno (#PCDATA)>
 <!ELEMENT prijmeni (#PCDATA)>
 <!ELEMENT tel.cislo (#PCDATA)>
 <!ELEMENT StId (#PCDATA)>
-<!ELEMENT forma (#PCDATA)>

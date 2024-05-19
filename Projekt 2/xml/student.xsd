@@ -3,23 +3,37 @@
     <xsd:element name="Univerzita">
         <xsd:complexType>
             <xsd:sequence>
-                <xsd:element name="PrF" maxOccurs="1">
-                    <xsd:complexType>
-                        <xsd:sequence>    
-                            <xsd:element name="student">
-                                <xsd:complexType>
-                                    <xsd:sequence>
-                                        <xsd:element name="jmeno" type="xsd:string" minOccurs="1"/>
-                                        <xsd:element name="prijmeni" type="xsd:string" minOccurs="1"/>
-                                        <xsd:element name="tel.cislo" type="xsd:string" />
-                                        <xsd:element name="StId" type="xsd:string" minOccurs="1"/>
-                                        <xsd:element name="forma" type="xsd:string" minOccurs="1"/>
-                                    </xsd:sequence>
-                                </xsd:complexType>
-                            </xsd:element>
-                        </xsd:sequence>
-                    </xsd:complexType>
-                </xsd:element>
+                <xsd:element name="fakulta" minOccurs="1"/>
+            </xsd:sequence>
+            <xsd:attribute name="nazev" type="xsd:string"/>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="fakulta">
+        <xsd:complexType>
+            <xsd:sequence>    
+                <xsd:element name="forma" minOccurs="2" maxOccurs="2"/>
+            </xsd:sequence>
+            <xsd:attribute name="nazev" type="xsd:string"/>
+        </xsd:complexType>
+    </xsd:element>
+    
+    <xsd:element name="forma">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="student"/>
+            </xsd:sequence>
+            <xsd:attribute name="typ" type="xsd:string"/>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="student">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="jmeno" type="xsd:string" minOccurs="1"/>
+                <xsd:element name="prijmeni" type="xsd:string" minOccurs="1"/>
+                <xsd:element name="tel.cislo" type="xsd:string"/>
+                <xsd:element name="StId" type="xsd:string" minOccurs="1"/>
             </xsd:sequence>
         </xsd:complexType>
     </xsd:element>

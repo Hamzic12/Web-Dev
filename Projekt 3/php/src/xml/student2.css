@@ -1,0 +1,20 @@
+fakulta
+{
+  display: table;
+  background-color: yellow;
+  border: solid;
+}
+
+student
+{
+  display: table-cell;
+}
+
+jmeno, prijmeni, forma, telcislo, StId
+{
+  display: table-row;
+}
+
+StId::before {
+  content: 'st';
+}

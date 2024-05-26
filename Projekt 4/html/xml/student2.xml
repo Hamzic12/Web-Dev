@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="student2.css"?>
+<?xml-stylesheet type="text/xsl" href="student2.xsl"?>
+<Univerzita nazev="UJEP">
+    <fakulta nazev="prirodovedecka">
+        <student>
+            <jmeno>Hamza</jmeno>
+            <prijmeni>Nussir</prijmeni>
+            <forma>prezencni</forma>
+            <telcislo>775226998</telcislo>
+            <StId>12345</StId>
+        </student>
+    </fakulta>
+</Univerzita>

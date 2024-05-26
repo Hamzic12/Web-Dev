@@ -2,7 +2,6 @@
 // Bez stylu:
 $xml = new SimpleXMLElement('<fakulty/>');
 // Se stylem
-$xml = new SimpleXMLElement('<?xml-stylesheet type="text/xsl" href="xml/fakulta.xsl"?><fakulty/>');
 
 $fakulta = $xml->addChild('fakulta');
 $fakulta->addAttribute('id','Pri');

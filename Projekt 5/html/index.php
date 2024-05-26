@@ -3,7 +3,12 @@
 
 <body>
     <ul>
-        <li><a href='./simplexml-load-myfile.php'>my xml file</a></li>
+        <li><a href='./load-myfile.php'>my xml file</a></li>
+        <li><a href='./iterate-myfile.php'>traverse my xml tree</a></li>
+        <li><a href='./access-myfile.php'>access my xml tree</a></li>
+        <li><a href='./xpath-myfile.php'>access my xml tree using xpath</a></li>
+        <li><a href='./create-xml.php'>create xml file</a></li>
+
         <li><a href='./simplexml-load-file.php'>load file</a></li>
         <li><a href='./simplexml-load-string.php'>load string</a></li>
 

@@ -11,6 +11,19 @@
 
   <xsl:template match="predmet">
     <p>
+      <xsl:attribute name="style">
+        <xsl:choose>
+          <xsl:when test="@katedra='KM'">
+					  background: blue;
+          </xsl:when>
+          <xsl:when test="@katedra='KI'">
+					  background: yellow;
+          </xsl:when>
+          <xsl:otherwise>
+            <!-- no background -->
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:attribute>
       <xsl:value-of select="@katedra"/>/<xsl:value-of select="@kod"/>
       <xsl:text> </xsl:text>
       <xsl:value-of select="nazev"/>

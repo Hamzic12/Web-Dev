@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="studium">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="rocnik" minOccurs="1" maxOccurs="3" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="rocnik">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="semestr" type="xs:string"/>
+            </xs:sequence>
+            <xs:attribute name="cislo" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="semestr">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="predmet" maxOccurs="unbounded"/>
+            </xs:sequence>
+            <xs:attribute name="nazev" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+   
+   <xs:element name="predmet">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nazev"/>
+                <xs:element name="vyucujici"/>
+                <xs:element name="kredity"/>
+                <xs:element name="status"/>
+                <xs:element name="zakonceni"/>
+            </xs:sequence>
+            <xs:attribute name="katedra" type="xs:string"/>
+            <xs:attribute name="kod" type="xs:string"/>
+        </xs:complexType>
+   </xs:element>
+
+    <xs:element name="vyucujici">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="jmeno"/>
+                <xs:element name="telefon"/>
+                <xs:element name="email"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

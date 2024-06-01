@@ -1,5 +1,5 @@
 <?php
-$filenameBase = '../xml/fakulta';
+$filenameBase = '../xml/studium';
 
 $xmlFile = "$filenameBase.xml";
 $xsdFile = "$filenameBase.xsd";

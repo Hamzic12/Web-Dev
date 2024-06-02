@@ -1,12 +1,9 @@
 <?php
-$filenameBase = '../xml/fakulta';
+$filenameBase = '../xml/studium';
 
 $xmlFile = "$filenameBase.xml";
 $xsdFile = "$filenameBase.xsd";
 $xslFile = "$filenameBase.xsl";
-
-// very basic, brutal error handling
-// error_reporting(0);
 
 try {
     $xml = new DOMDocument;
@@ -24,4 +21,3 @@ try {
 }
 
 echo $xmlTrans;
-

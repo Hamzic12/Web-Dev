@@ -3,7 +3,7 @@
     <xs:element name="recipes">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="recipe" maxOccurs="unbounded"/>
+                <xs:element name="recipe" maxOccurs="unbounded" />
             </xs:sequence>
         </xs:complexType>
     </xs:element>
@@ -11,13 +11,13 @@
     <xs:element name="recipe">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="name"/>
-                <xs:element name="mealtype"/>
-                <xs:element name="amount"/>
-                <xs:element name="ingredients"/>
-                <xs:element name="duration"/>
-                <xs:element name="instructions"/>
-                <xs:element name="tutorial"/>
+                <xs:element name="name" type="xs:string" minOccurs="1"/>
+                <xs:element name="mealtype" type="xs:string" minOccurs="1"/>
+                <xs:element name="amount" type="xs:string" minOccurs="1"/>
+                <xs:element name="ingredients" type="xs:string" minOccurs="1"/>
+                <xs:element name="duration" type="xs:integer" minOccurs="1"/>
+                <xs:element name="instructions" type="xs:string" minOccurs="1"/>
+                <xs:element name="tutorial" type="xs:string" minOccurs="1"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
@@ -25,7 +25,7 @@
     <xs:element name="ingredients">
     <xs:complexType>
         <xs:sequence>
-            <xs:element name="ingredient" maxOccurs="unbounded"/>
+            <xs:element name="ingredient" maxOccurs="unbounded" type="xs:string" minOccurs="1"/>
         </xs:sequence>
     </xs:complexType>
     </xs:element>
@@ -33,7 +33,7 @@
     <xs:element name="instructions">
     <xs:complexType>
         <xs:sequence>
-            <xs:element name="instruction" maxOccurs="unbounded"/>
+            <xs:element name="instruction" maxOccurs="unbounded" type="xs:string" minOccurs="1"/>
         </xs:sequence>
     </xs:complexType>
     </xs:element>

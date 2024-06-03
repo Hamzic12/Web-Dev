@@ -12,7 +12,7 @@
             <ingredient>drizzle of honey</ingredient>
             <ingredient>½ tbsp nut butter (we used almond)</ingredient>
         </ingredients>
-        <duration>5 min</duration>
+        <duration unit="minutes">5</duration>
         <instructions>
             <instruction> The night before serving, stir the cinnamon and 100ml water (or milk) into your oats with a pinch of salt.</instruction>
             <instruction> The next day, loosen with a little more water (or milk) if needed. Top with the yogurt, berries, a drizzle of honey and the nut butter.</instruction>
@@ -35,7 +35,7 @@
             <ingredient>4 oz milk or semi-sweet chocolate chunks(110 g)</ingredient>
             <ingredient>4 oz dark chocolate chunk(110 g), or your preference</ingredient>
         </ingredients>
-        <duration>30 min</duration>
+        <duration unit="minutes">30</duration>
         <instructions>
             <instruction>In a large bowl, whisk together the sugars, salt, and butter until a paste forms with no lumps.</instruction>
             <instruction>Whisk in the egg and vanilla, beating until light ribbons fall off the whisk and remain for a short while before falling back into the mixture.</instruction>
@@ -61,7 +61,7 @@
             <ingredient>100g parmesan</ingredient>
             <ingredient>parsley, chopped, to serve</ingredient>
         </ingredients>
-        <duration>25 min</duration>
+        <duration unit="minutes">25</duration>
         <instructions>
             <instruction> Heat the olive oil in a non-stick frying pan over a medium high heat. Add the chicken thighs and fry for around 10 mins, turning half way, until they are golden brown and cooked through. Set aside to cool a little, then use two forks to shred.</instruction>
             <instruction> Bring a pan of salted water to the boil and add the pasta, cook for 1 minute less that package instructions. Whilst the pasta is cooking, add the butter to the frying pan over a medium heat, scraping the bottom a little to get any of the browned bits. Tip in the cream along with the nutmeg and bring to a simmer. Add the chicken back to the pan.</instruction>
@@ -86,7 +86,7 @@
             <ingredient>400g can kidney beans, in water</ingredient>
             <ingredient>cooked basmati rice, to serve</ingredient>
         </ingredients>
-        <duration>35 min</duration>
+        <duration unit="minutes">35</duration>
         <instructions>
             <instruction> Heat the oil in a large frying pan over a low-medium heat. Add the onion and a pinch of salt and cook slowly, stirring occasionally, until softened and just starting to colour. Add the garlic, ginger and coriander stalks and cook for a further 2 mins, until fragrant.</instruction>
             <instruction> Add the spices to the pan and cook for another 1 min, by which point everything should smell aromatic. Tip in the chopped tomatoes and kidney beans in their water, then bring to the boil.</instruction>

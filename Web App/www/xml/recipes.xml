@@ -1,70 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <recipes>
-
     <recipe>
         <name>oatmeal porridge</name>
         <mealtype>breakfast</mealtype>
-        <amount></amount>
+        <amount>a bowl</amount>
         <ingredients>
-        
+            <ingredient>¼ tsp ground cinnamon</ingredient>
+            <ingredient>50g rolled porridge oats</ingredient>
+            <ingredient>2 tbsp natural yogurt</ingredient>
+            <ingredient>50g mixed berries</ingredient>
+            <ingredient>drizzle of honey</ingredient>
+            <ingredient>½ tbsp nut butter (we used almond)</ingredient>
         </ingredients>
         <duration>5 min</duration>
         <instructions>
-        
+            <instruction>STEP 1 The night before serving, stir the cinnamon and 100ml water (or milk) into your oats with a pinch of salt.</instruction>
+            <instruction>STEP 2 The next day, loosen with a little more water (or milk) if needed. Top with the yogurt, berries, a drizzle of honey and the nut butter.</instruction>
         </instructions>
+        <tutorial>https://www.youtube.com/shorts/pZ5PwIqrMRA</tutorial>
     </recipe>
-
     <recipe>
         <name>cookies</name>
         <mealtype>snack</mealtype>
         <amount>12 cookies</amount>
         <ingredients>
-            ½ cup granulated sugar(100 g)
-            ¾ cup brown sugar(165 g), packed
-            1 teaspoon salt
-            ½ cup unsalted butter(115 g), melted
-            1 large egg
-            1 teaspoon vanilla extract
-            1 ¼ cups all-purpose flour(155 g)
-            ½ teaspoon baking soda
-            4 oz milk or semi-sweet chocolate chunks(110 g)
-            4 oz dark chocolate chunk(110 g), or your preference
+            <ingredient>½ cup granulated sugar(100 g)</ingredient>
+            <ingredient>¾ cup brown sugar(165 g), packed</ingredient>
+            <ingredient>1 teaspoon salt</ingredient>
+            <ingredient>½ cup unsalted butter(115 g), melted</ingredient>
+            <ingredient>1 large egg</ingredient>
+            <ingredient>1 teaspoon vanilla extract</ingredient>
+            <ingredient>1 ¼ cups all-purpose flour(155 g)</ingredient>
+            <ingredient>½ teaspoon baking soda</ingredient>
+            <ingredient>4 oz milk or semi-sweet chocolate chunks(110 g)</ingredient>
+            <ingredient>4 oz dark chocolate chunk(110 g), or your preference</ingredient>
         </ingredients>
-        <duration>5 min</duration>
+        <duration>30 min</duration>
         <instructions>
-            In a large bowl, whisk together the sugars, salt, and butter until a paste forms with no lumps.
-            Whisk in the egg and vanilla, beating until light ribbons fall off the whisk and remain for a short while before falling back into the mixture.
-            Sift in the flour and baking soda, then fold the mixture with a spatula (Be careful not to overmix, which would cause the gluten in the flour to toughen resulting in cakier cookies).
-            Fold in the chocolate chunks, then chill the dough for at least 30 minutes. For a more intense toffee-like flavor and deeper color, chill the dough overnight. The longer the dough rests, the more complex its flavor will be.
-            Preheat oven to 350°F (180°C). Line a baking sheet with parchment paper.
-            Scoop the dough with an ice-cream scoop onto a parchment paper-lined baking sheet, leaving at least 4 inches (10 cm) of space between cookies and 2 inches (5 cm) of space from the edges of the pan so that the cookies can spread evenly.
-            Bake for 12-15 minutes, until the edges have started to barely brown.
+            <instruction>In a large bowl, whisk together the sugars, salt, and butter until a paste forms with no lumps.</instruction>
+            <instruction>Whisk in the egg and vanilla, beating until light ribbons fall off the whisk and remain for a short while before falling back into the mixture.</instruction>
+            <instruction>Sift in the flour and baking soda, then fold the mixture with a spatula (Be careful not to overmix, which would cause the gluten in the flour to toughen resulting in cakier cookies).</instruction>
+            <instruction>Fold in the chocolate chunks, then chill the dough for at least 30 minutes. For a more intense toffee-like flavor and deeper color, chill the dough overnight. The longer the dough rests, the more complex its flavor will be.</instruction>
+            <instruction>Preheat oven to 350°F (180°C). Line a baking sheet with parchment paper.</instruction>
+            <instruction>Scoop the dough with an ice-cream scoop onto a parchment paper-lined baking sheet, leaving at least 4 inches (10 cm) of space between cookies and 2 inches (5 cm) of space from the edges of the pan so that the cookies can spread evenly.</instruction>
+            <instruction>Bake for 12-15 minutes, until the edges have started to barely brown.</instruction>
         </instructions>
+        <tutorial>https://youtu.be/4kP0v0rXqfA</tutorial>
     </recipe>
-
     <recipe>
         <name>chicken alfredo</name>
         <mealtype>lunch</mealtype>
-        <amount></amount>
+        <amount>4 plates</amount>
         <ingredients>
-
+            <ingredient>1 tbsp olive oil</ingredient>
+            <ingredient>4 skinless boneless chicken thighs, cut in half</ingredient>
+            <ingredient>300g fettuccine, or tagliatelle</ingredient>
+            <ingredient>1 tbsp butter</ingredient>
+            <ingredient>200ml double cream</ingredient>
+            <ingredient>½ a nutmeg, grated</ingredient>
+            <ingredient>100g parmesan</ingredient>
+            <ingredient>parsley, chopped, to serve</ingredient>
         </ingredients>
-        <duration>5 min</duration>
+        <duration>25 min</duration>
         <instructions>
-        
+            <instruction>STEP 1 Heat the olive oil in a non-stick frying pan over a medium high heat. Add the chicken thighs and fry for around 10 mins, turning half way, until they are golden brown and cooked through. Set aside to cool a little, then use two forks to shred.</instruction>
+            <instruction>STEP 2 Bring a pan of salted water to the boil and add the pasta, cook for 1 minute less that package instructions. Whilst the pasta is cooking, add the butter to the frying pan over a medium heat, scraping the bottom a little to get any of the browned bits. Tip in the cream along with the nutmeg and bring to a simmer. Add the chicken back to the pan.</instruction>
+            <instruction>STEP 3 Once the pasta is cooked, use tongs to transfer the pasta straight from the water into the frying pan with the cream mixture. Sprinkle most of the parmesan over and use the tongs to toss it all together, adding a splash of the pasta water if it looks a little stiff. Season well, then tip into bowls. Top with the remaining parmesan, a scattering of parsley, and black pepper.</instruction>
         </instructions>
+        <tutorial>https://www.youtube.com/watch?v=6-m_u_8r81o</tutorial>
     </recipe>
-    
     <recipe>
-        <name>beans</name>
+        <name>Kidney bean curry</name>
         <mealtype>dinner</mealtype>
-        <amount></amount>
+        <amount>2 plates</amount>
         <ingredients>
-        
+            <ingredient>1 tbsp vegetable oil</ingredient>
+            <ingredient>1 onion, finely chopped</ingredient>
+            <ingredient>2 garlic cloves, finely chopped</ingredient>
+            <ingredient>thumb-sized piece of ginger, peeled and finely chopped</ingredient>
+            <ingredient>1 small pack coriander, stalks finely chopped, leaves roughly shredded</ingredient>
+            <ingredient>1 tsp ground cumin</ingredient>
+            <ingredient>1 tsp ground paprika</ingredient>
+            <ingredient>2 tsp garam masala</ingredient>
+            <ingredient>400g can chopped tomatoes</ingredient>
+            <ingredient>400g can kidney beans, in water</ingredient>
+            <ingredient>cooked basmati rice, to serve</ingredient>
         </ingredients>
-        <duration>5 min</duration>
+        <duration>35 min</duration>
         <instructions>
+            <instruction>STEP 1 Heat the oil in a large frying pan over a low-medium heat. Add the onion and a pinch of salt and cook slowly, stirring occasionally, until softened and just starting to colour. Add the garlic, ginger and coriander stalks and cook for a further 2 mins, until fragrant.</instruction>
+            <instruction>STEP 2 Add the spices to the pan and cook for another 1 min, by which point everything should smell aromatic. Tip in the chopped tomatoes and kidney beans in their water, then bring to the boil.</instruction>
+            <instruction>STEP 3 Turn down the heat and simmer for 15 mins until the curry is nice and thick. Season to taste, then serve with the basmati rice and the coriander leaves.</instruction>
         </instructions>
+        <tutorial>https://www.youtube.com/watch?v=2BnydQ27YXo</tutorial>
     </recipe>
-
 </recipes>

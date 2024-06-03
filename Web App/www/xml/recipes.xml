@@ -4,11 +4,11 @@
     <recipe>
         <name>oatmeal porridge</name>
         <mealtype>breakfast</mealtype>
-        <duration>5 min</duration>
         <amount></amount>
         <ingredients>
         
         </ingredients>
+        <duration>5 min</duration>
         <instructions>
         
         </instructions>
@@ -17,7 +17,6 @@
     <recipe>
         <name>cookies</name>
         <mealtype>snack</mealtype>
-        <duration>5 min</duration>
         <amount>12 cookies</amount>
         <ingredients>
             ½ cup granulated sugar(100 g)
@@ -31,6 +30,7 @@
             4 oz milk or semi-sweet chocolate chunks(110 g)
             4 oz dark chocolate chunk(110 g), or your preference
         </ingredients>
+        <duration>5 min</duration>
         <instructions>
             In a large bowl, whisk together the sugars, salt, and butter until a paste forms with no lumps.
             Whisk in the egg and vanilla, beating until light ribbons fall off the whisk and remain for a short while before falling back into the mixture.
@@ -45,11 +45,11 @@
     <recipe>
         <name>chicken alfredo</name>
         <mealtype>lunch</mealtype>
-        <duration>5 min</duration>
         <amount></amount>
         <ingredients>
 
         </ingredients>
+        <duration>5 min</duration>
         <instructions>
         
         </instructions>
@@ -58,11 +58,11 @@
     <recipe>
         <name>beans</name>
         <mealtype>dinner</mealtype>
-        <duration>5 min</duration>
         <amount></amount>
         <ingredients>
         
         </ingredients>
+        <duration>5 min</duration>
         <instructions>
         </instructions>
     </recipe>

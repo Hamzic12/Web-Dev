@@ -12,9 +12,9 @@
             <xs:sequence>
                 <xs:element name="name"/>
                 <xs:element name="mealtype"/>
-                <xs:element name="duration"/>
                 <xs:element name="amount"/>
                 <xs:element name="ingredients"/>
+                <xs:element name="duration"/>
                 <xs:element name="instructions"/>
             </xs:sequence>
         </xs:complexType>

@@ -2,6 +2,9 @@
     <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <style>
+        h1{
+            text-align: center;
+        }
         a
         {
             text-decoration: none;
@@ -9,7 +12,7 @@
         }
         button
         {
-            margin: 5px;
+            margin-top:5px;
         }
 
         .panel {
@@ -21,12 +24,25 @@
         body {
             background-color: #fff3e6
         }
-        .form-control{
-            border: 1px solid black;
+        .form {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: lightgrey;
+            padding: 0px 20px 0px 20px;
+        }
+
+        .form-control {
+            margin-bottom: 10px;
         }
         .btn {
             display: block;
-            margin: 0 auto;
+            margin: 15px auto;
+        }
+        label
+        {
+            font-weight: bold;
         }
     </style>
     </head>
@@ -80,35 +96,36 @@
                 $xml -> save("../xml/recipes.xml");
             }
         ?>
+        <h1> Add your recipe</h1>
         <div class="container d-flex justify-content-center">
-        <form action="add-recipe-form.php" method="post">  
-            <label>Name</label>
-            <input type="text" name="name" class="form-control"/>
-            
-            <label>Mealtype</label>
-            <input type="text" name="mealtype" class="form-control"/>
-  
-  
-            <label>Amount</label>
-            <input type="text" name="amount" class="form-control"/>
+            <form action="add-recipe-form.php" method="post">  
+                <label>Name</label>
+                <input type="text" name="name" class="form-control"/>
+                
+                <label>Meal type</label>
+                <input type="text" name="mealtype" class="form-control"/>
     
-      
-            <label>Ingredients</label>
-            <input type="text" name="ingredient" class="form-control"/>
-     
-            <label>Duration</label>
-            <input type="text" name="duration" class="form-control"/>
-  
-            <label>Instructions</label>
-            <input type="text" name="instruction" class="form-control"/>
+    
+                <label>Amount</label>
+                <input type="text" name="amount" class="form-control"/>
+        
+        
+                <label>Ingredient</label>
+                <input type="text" name="ingredient" class="form-control"/>
+        
+                <label>Duration</label>
+                <input type="text" name="duration" class="form-control"/>
+    
+                <label>Instruction</label>
+                <input type="text" name="instruction" class="form-control"/>
 
-            <div class="mb-3">
-                <label>Youtube video</label>
-                <input type="text" name="tutorial" class="form-control"/>
-            </div> 
-        <button name="add" class="btn btn-primary">Add</button>
-    </form>
-
+                <div class="mb-3">
+                    <label>Youtube video</label>
+                    <input type="text" name="tutorial" class="form-control"/>
+                </div> 
+            <button name="add" class="btn btn-primary">Add</button>
+            </form>
+        </div>
 
     </body>
 </html>

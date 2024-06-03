@@ -99,6 +99,7 @@
                 $recipeTag -> appendChild($ingredientsTag);
                 $recipeTag -> appendChild($durationTag);
                 $recipeTag -> appendChild($instructionsTag);
+                $recipeTag -> appendChild($tutorialTag);
 
                 $rootTag -> appendChild($recipeTag);
                 

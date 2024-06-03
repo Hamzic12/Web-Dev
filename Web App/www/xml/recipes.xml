@@ -94,4 +94,4 @@
         </instructions>
         <tutorial>https://www.youtube.com/watch?v=2BnydQ27YXo</tutorial>
     </recipe>
-</recipes>
+<recipe><name>Cereal</name><mealtype>breakfast</mealtype><amount>1 bowl</amount><ingredients><ingredient>50 gr of cereal</ingredient><ingredient>200 ml of milk</ingredient></ingredients><duration unit="minutes">5</duration><instructions><instruction>pour cereal in bowl</instruction><instruction>pour milk on top</instruction></instructions></recipe><recipe><name>Cereal</name><mealtype>breakfast</mealtype><amount>1 bowl</amount><ingredients><ingredient>50 gr of cereal</ingredient><ingredient>200 ml of milk</ingredient></ingredients><duration unit="minutes">5</duration><instructions><instruction>pour cereal in bowl</instruction><instruction>pour milk on cereal in bowl</instruction></instructions><tutorial>https://www.youtube.com/watch?v=nkBx5HBT79Y</tutorial></recipe></recipes>

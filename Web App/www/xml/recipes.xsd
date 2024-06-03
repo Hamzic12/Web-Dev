@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="recipes">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="recipe" maxOccurs="unbounded"/>            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="recipe">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="name"/>
+                <xs:element name="mealtype"/>
+                <xs:element name="duration"/>
+                <xs:element name="amount"/>
+                <xs:element name="ingredients"/>
+                <xs:element name="instructions"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

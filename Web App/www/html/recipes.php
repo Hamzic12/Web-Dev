@@ -15,47 +15,57 @@
                 text-align: center;
                 margin-bottom: 20px;
             }
+        .panel {
+        background-color: #f8d7da;
+        padding: 5px;
+        border-bottom: 2px solid black;
+        }
+
+        body {
+            background-color: #fff3e6
+        }
     </style>
-            <a href="index.php">
-                <button>Home</button>
-            </a>
-            <a href="recipes.php">
-                <button>Recipes</button>
-            </a>
-
-            <a href="add-recipe-form.php">
-                <button>Add recipe</button>
-            </a>
-
     </head>
 
     <body>
-    <h1>Tasty recipes</h1>
-    <?php
-        $filenameBase = '../xml/recipes';
+        <div class="panel panel-default">
+                <a href="index.php">
+                    <button>Home</button>
+                </a>
+                <a href="recipes.php">
+                    <button>Recipes</button>
+                </a>
 
-        $xmlFile = "$filenameBase.xml";
-        $xsdFile = "$filenameBase.xsd";
-        $xslFile = "$filenameBase.xsl";
+                <a href="add-recipe-form.php">
+                    <button>Add recipe</button>
+                </a>
+        </div>
+        <h1>Tasty recipes</h1>
+        <?php
+            $filenameBase = '../xml/recipes';
+
+            $xmlFile = "$filenameBase.xml";
+            $xsdFile = "$filenameBase.xsd";
+            $xslFile = "$filenameBase.xsl";
 
 
-        try {
-            $xml = new DOMDocument;
-            $xml->load($xmlFile) or die;
-            $xml->schemaValidate($xsdFile) or die;
+            try {
+                $xml = new DOMDocument;
+                $xml->load($xmlFile) or die;
+                $xml->schemaValidate($xsdFile) or die;
 
-            $xsl = new DOMDocument;
-            $xsl->load($xslFile) or die;
+                $xsl = new DOMDocument;
+                $xsl->load($xslFile) or die;
 
-            $xslt = new XSLTProcessor();
-            $xslt->importStylesheet($xsl) or die;
-            (false!==$xmlTrans = $xslt->transformToXml($xml)) or die;
-        } catch (\Throwable) {
-            die;
-        }
+                $xslt = new XSLTProcessor();
+                $xslt->importStylesheet($xsl) or die;
+                (false!==$xmlTrans = $xslt->transformToXml($xml)) or die;
+            } catch (\Throwable) {
+                die;
+            }
 
-        echo $xmlTrans;
-    ?>
+            echo $xmlTrans;
+        ?>
 
 
     </body>

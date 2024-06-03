@@ -23,14 +23,18 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            width: 24%;
+            width: 27%;
         }
-        .panel
-        {
-            background-color: #f5f5f5;
+        .panel {
+            background-color: #f8d7da;
+            padding: 5px;
+            border-bottom: 2px solid black;
         }
 
-        
+        body {
+            background-color: #fff3e6;
+        }
+
     </style>
 
     </head>

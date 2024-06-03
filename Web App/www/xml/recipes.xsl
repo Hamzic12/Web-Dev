@@ -4,14 +4,14 @@
   <xsl:template match="/">
     <html>
       <div class="container">
-        <table border="5" class="table table-striped" align="center">
+        <table border="5" class="table table-striped">
 
             <tr>
                 <th>Name</th>
                 <th>Meal Type</th>
                 <th>Amount</th>
                 <th>Ingredients</th>
-                <th>Duration</th>
+                <th style="width: 130px;">Duration</th>
                 <th>Instructions</th>
                 <th>Youtube Video</th>
             </tr>
@@ -24,9 +24,9 @@
 
   <xsl:template match="recipe">
       <tr>
-        <td><xsl:value-of select="name"/></td>
-        <td><xsl:value-of select="mealtype"/></td>
-        <td><xsl:value-of select="amount"/></td>
+        <td style="font-size: 20px;"><xsl:value-of select="name"/></td>
+        <td style="font-size: 17px;"><xsl:value-of select="mealtype"/></td>
+        <td style="font-size: 17px;"><xsl:value-of select="amount"/></td>
         <td>
           <ul>
             <xsl:for-each select="ingredients/ingredient">

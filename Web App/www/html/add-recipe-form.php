@@ -12,21 +12,38 @@
             margin: 5px;
         }
 
+        .panel {
+        background-color: #f8d7da;
+        padding: 5px;
+        border-bottom: 2px solid black;
+        }
+
+        body {
+            background-color: #fff3e6
+        }
+        .form-control{
+            border: 1px solid black;
+        }
+        .btn {
+            display: block;
+            margin: 0 auto;
+        }
     </style>
-            <a href="index.php">
-                <button>Home</button>
-            </a>
-            <a href="recipes.php">
-                <button>Recipes</button>
-            </a>
-
-            <a href="add-recipe-form.php">
-                <button>Add recipe</button>
-            </a>
-
     </head>
 
     <body>
+        <div class="panel panel-default">
+                <a href="index.php">
+                    <button>Home</button>
+                </a>
+                <a href="recipes.php">
+                    <button>Recipes</button>
+                </a>
+
+                <a href="add-recipe-form.php">
+                    <button>Add recipe</button>
+                </a>
+        </div>
         <?php
             if(isset($_REQUEST['add']))
             {

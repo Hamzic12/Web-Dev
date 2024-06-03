@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recipes>
+
+    <recipe>
+        <name>oatmeal porridge</name>
+        <mealtype>breakfast</mealtype>
+        <duration>5 min</duration>
+        <ingredients>dssds</ingredients>
+        <instrucitons>whip it up</instrucitons>
+    </recipe>
+
+    <recipe>
+        <name>cookies</name>
+        <mealtype>snack</mealtype>
+        <duration>5 min</duration>
+        <ingredients>dssds</ingredients>
+        <instrucitons>whip it up</instrucitons>
+    </recipe>
+
+    <recipe>
+        <name>chicken alfredo</name>
+        <mealtype>lunch</mealtype>
+        <duration>5 min</duration>
+        <ingredients>dssds</ingredients>
+        <instrucitons>whip it up</instrucitons>
+    </recipe>
+    
+    <recipe>
+        <name>beans</name>
+        <mealtype>dinner</mealtype>
+        <duration>5 min</duration>
+        <ingredients>dssds</ingredients>
+        <instrucitons>whip it up</instrucitons>
+    </recipe>
+    
+</recipes>

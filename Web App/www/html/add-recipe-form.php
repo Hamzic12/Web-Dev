@@ -44,6 +44,9 @@
         {
             font-weight: bold;
         }
+        .flex {
+            display: flex;
+        }
     </style>
     </head>
 
@@ -74,15 +77,21 @@
                 $nameTag = $xml->createElement("name", $_REQUEST['name']);
                 $mealtypeTag = $xml->createElement("mealtype", $_REQUEST['mealtype']);
                 $amountTag = $xml->createElement("amount", $_REQUEST['amount']);
-                $ingredientTag = $xml->createElement("ingredient", $_REQUEST['ingredient']);
                 $durationTag = $xml->createElement("duration", $_REQUEST['duration']);
-                $instructionTag = $xml->createElement("instruction", $_REQUEST['instruction']);
                 $tutorialTag = $xml->createElement("tutorial", $_REQUEST['tutorial']);
 
                 $durationTag->setAttribute("unit", "minutes");
 
-                $ingredientsTag -> appendChild($ingredientTag);
-                $instructionsTag -> appendChild($instructionTag);
+                $ingredientTags = $_REQUEST['ingredient'] ?? []; // Get all ingredients as an array
+                foreach ($ingredientTags as $ingredient) {
+                    $ingredientTag = $xml->createElement("ingredient", $ingredient);
+                    $ingredientsTag->appendChild($ingredientTag);
+                }
+                $instructionTags = $_REQUEST['instruction'] ?? [];
+                foreach ($instructionTags as $instruction) {
+                    $instructionTag = $xml->createElement("instruction", $instruction);
+                    $instructionsTag->appendChild($instructionTag);
+                }
 
                 $recipeTag -> appendChild($nameTag);
                 $recipeTag -> appendChild($mealtypeTag);
@@ -98,34 +107,49 @@
         ?>
         <h1> Add your recipe</h1>
         <div class="container d-flex justify-content-center">
-            <form action="add-recipe-form.php" method="post">  
+            <form method="post">  
                 <label>Name</label>
-                <input type="text" name="name" class="form-control"/>
+                <input type="text" name="name" class="form-control" required placeholder="..."/>
                 
                 <label>Meal type</label>
-                <input type="text" name="mealtype" class="form-control"/>
+                <input type="text" name="mealtype" class="form-control" required placeholder="..."/>
     
     
                 <label>Amount</label>
-                <input type="text" name="amount" class="form-control"/>
+                <input type="text" name="amount" class="form-control" required placeholder="..."/>
         
         
                 <label>Ingredient</label>
-                <input type="text" name="ingredient" class="form-control"/>
-        
+                <div class="moreIngredient">
+                    <input type="text" name="ingredient[]" class="form-control" required placeholder="..."/>     
+                </div>
+                
                 <label>Duration</label>
-                <input type="text" name="duration" class="form-control"/>
+                <input type="text" name="duration" class="form-control" required pattern="[0-9]+" placeholder="In minutes"/>
     
                 <label>Instruction</label>
-                <input type="text" name="instruction" class="form-control"/>
+                
+                <div class="moreInstruction">
+                    <input type="text" name="instruction[]" class="form-control" required placeholder="..."/>
+                </div>
 
                 <div class="mb-3">
                     <label>Youtube video</label>
-                    <input type="text" name="tutorial" class="form-control"/>
+                    <input type="text" name="tutorial" class="form-control" required placeholder="..."/>
                 </div> 
-            <button name="add" class="btn btn-primary">Add</button>
+            <button name="add" class="btn btn-primary" >Add</button>
             </form>
+            <div>
+                <button class="addIngredient btn">Add Ingredient</button>
+            </div>
+             <div>
+                <button class="addInstruction btn">Add instruction</button>
+            </div>
         </div>
+
+        <script src="JS/add-remove-ingredient.js"></script>
+        <script src="JS/add-remove-instruction.js"></script>
+
 
     </body>
 </html>

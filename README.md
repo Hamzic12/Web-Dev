@@ -6,3 +6,4 @@
 	- A web app, recipe book
 	- where recipes are shown in a table
 	- User is able to add recipes via a form
+	- Recipes are saved in a xml
